@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI Calc</string>
+    <string name="ur_weight">Ur Weight ?</string>
+    <string name="ur_height_ft">Ur Height(in Feet) ?\n</string>
+    <string name="ur_height_in">Ur Height(in Inch) ?\n</string>
+    <string name="calculate_it">Calculate It !!</string>
+    <string name="bmi">BMI</string>
+    <string name="overweight">You r OverWeight :O</string>
+    <string name="underweight">You r UnderWeight :)</string>
+    <string name="healthy">You r Healthy !!</string>
+</resources>

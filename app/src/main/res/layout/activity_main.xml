@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    >
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi"
+        android:textSize="51sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ur_weight"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/edtHeightFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ur_height_ft"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/edtHeightIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ur_height_in"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_it"
+        />
+
+</LinearLayout>
+
